@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  /* DEBUG:  */
+  border:1px solid black;
+  padding:5px;
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+  font-family: arial, monospace;
+}
+
+
+
+
+/* griglia */
+
+/* GRID */
+
+/* .my-grid-container{
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:50% 25vh auto;
+
+  grid-column-gap:;
+  grid-row-gap:;
+}
+
+.my-grid-container.one{
+  grid-column: 1 / 2;
+}
+
+.my-grid-container.two{
+  grid-column: 2 / 3;
+  background-color: red;
+}
+
+.my-grid-container.three{
+  grid-column: 3 / 4;
+} */
+
+/* .my-grid-container.n2{
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(2, 350px 60px) 10%;
+  grid-template-rows:50% 25vh auto;
+
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+} */
+
+
+/* FLEX */
+
+/* ANIMATIONS / TRANSITIONS */
+
+
+/* media query */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
